@@ -16,7 +16,6 @@ class MyDocument extends Document implements MyDocumentInterface {
 		return (
 			<Html lang="ja-JP">
 				<Head>
-					<meta name="description" content={this.description} />
 					<meta name="theme-color" content="#333" />
 					<meta property="og:type" content="website" />
 					<meta property="og:title" content={this.title} />
@@ -29,6 +28,7 @@ class MyDocument extends Document implements MyDocumentInterface {
 					<meta name="twitter:title" content={this.title} />
 					<meta name="twitter:description" content={this.description} />
 					<meta name="twitter:image" content={`${this.url}/ogp.png`} />
+					<link rel="icon" href="/favicon.ico" />
 					<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 					<link rel="manifest" href="/manifest.json" />
 				</Head>
