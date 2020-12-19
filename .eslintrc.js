@@ -43,7 +43,7 @@ module.exports = {
 		'new-cap': [2], // 小文字始まりのコンストラクタ関数を許可しない
 		'no-continue': [2], // continueの使用を許可しない
 		// 'no-trailing-spaces': ['error', { skipBlankLines: true }], // 行末の不要なスペースを許可しない
-		// 'semi': [2, 'always'], // セミコロンの省略を許可しない
+		'semi': [2, 'always'], // セミコロンの省略を許可しない
 		'wrap-regex': [2], // 括弧で囲われていない正規表現リテラルを許可しない
 		'object-shorthand': [0, 'always'], // objectリテラルのショートハンドを強制する
 		'prefer-const': [2], // letで宣言されている変数で、変更されることのないものに対してconstへの変更を強制する

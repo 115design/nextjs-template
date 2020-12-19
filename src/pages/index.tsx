@@ -1,12 +1,11 @@
 import React from 'react';
-import { NextPage } from 'next';
 
 import Head from 'next/head';
 import Layout from 'components/layout';
 
 import homeStyles from 'styles/Home.module.scss';
 
-const Home: NextPage = () => {
+export default function Home(): JSX.Element {
 	return (
 		<Layout>
 			<Head>
@@ -71,6 +70,4 @@ const Home: NextPage = () => {
 			</footer>
 		</Layout>
 	);
-};
-
-export default Home;
+}
