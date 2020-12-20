@@ -34,6 +34,10 @@ class MyDocument extends Document implements MyDocumentInterface {
 						href={`${this.url}/apple-touch-icon.png`}
 					/>
 					<link rel="manifest" href="/manifest.json" />
+					<link
+						href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap&subset=japanese"
+						rel="stylesheet"
+					/>
 				</Head>
 				<body>
 					<Main />
