@@ -2,7 +2,7 @@ import React from 'react';
 import { AppProps } from 'next/app';
 
 import 'sanitize.css';
-import 'styles/global.scss';
+import 'styles/common.scss';
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
 	return <Component {...pageProps} />;
