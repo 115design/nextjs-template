@@ -17,9 +17,6 @@
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook"
 	},
-	"lint-staged": {
-		"*.{js,jsx,ts,tsx}": "eslint"
-	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.5.0",
 		"framer-motion": "^3.1.1",
@@ -57,7 +54,6 @@
 		"husky": "^5.0.6",
 		"identity-obj-proxy": "^3.0.0",
 		"jest": "^26.6.3",
-		"lint-staged": ">=10",
 		"prettier": "^2.2.1",
 		"puppeteer": "^5.5.0",
 		"sanitize.css": "^12.0.1",
