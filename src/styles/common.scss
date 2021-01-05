@@ -1,1 +1,15 @@
 @import "./utilities";
+
+// プログレスバー
+#nprogress .bar {
+	background: #FFF100;
+}
+
+#nprogress .peg {
+	box-shadow: 0 0 10px #FFF100, 0 0 5px #FFF100;
+}
+
+#nprogress .spinner-icon {
+	border-top-color: #FFF100;
+	border-left-color: #FFF100;
+}

@@ -1,1 +1,34 @@
 @import "./utilities";
+
+.main {
+	display: block;
+}
+
+.title {
+	display: block;
+}
+
+// 374px以下
+@media only screen and ( max-width: $small-sp ) {
+
+}
+
+// 横向き
+@media (orientation: landscape) {
+
+}
+
+// 768px以上
+@media only screen and ( min-width: $tablet ) {
+
+}
+
+// 1024px以上
+@media only screen and ( min-width: $large-tablet ) {
+
+}
+
+// 1200px以上
+@media only screen and ( min-width: $note-pc ) {
+
+}
